@@ -34,6 +34,9 @@ button.a{
 button.b{
   background-color: #00cbca;
 }
+button.c{
+  background-color: #9900cc;
+}
 
 #tip{
   text-align: left;
@@ -105,6 +108,9 @@ button.b{
 #choice button.b:hover{
   background-color: #00a2a1;
 }
+#choice button.c:hover{
+  background-color: #8600b3;
+}
 
 #choice button.a:focus{
   background-color: #1488c6;
@@ -113,6 +119,10 @@ button.b{
 #choice button.b:focus{
   background-color: #00a2a1;
 }
+#choice button.c:focus{
+  background-color: #8600b3;
+}
+
 
 #background-stats{
   z-index:1;

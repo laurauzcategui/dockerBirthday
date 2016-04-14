@@ -8,8 +8,9 @@ import socket
 import random
 import json
 
-option_a = os.getenv('OPTION_A', "One")
-option_b = os.getenv('OPTION_B', "Two")
+option_a = os.getenv('OPTION_A', "Ruby")
+option_b = os.getenv('OPTION_B', "Python")
+option_c = os.getenv('OPTION_C', "JavaScript")
 
 hostname = socket.gethostname()
 
@@ -34,6 +35,7 @@ def hello():
         'index.html',
         option_a=option_a,
         option_b=option_b,
+        option_c=option_c,
         hostname=hostname,
         vote=vote,
     ))
