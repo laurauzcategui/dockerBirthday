@@ -16,7 +16,7 @@ body{
 
 .divider{
   height: 150px;
-  width:2px;
+  width:4px;
   background-color: #C0C9CE;
   position: relative;
   top: 50%;
@@ -27,7 +27,6 @@ body{
 #background-stats-1{
   background-color: #2196f3;
 }
-
 #background-stats-2{
   background-color: #00cbca;
 }
@@ -55,7 +54,7 @@ body{
   right: 20px;
   color: #fff;
   opacity: 0.5;
-  font-size: 45px;
+  font-size: 50px;
   font-weight: 600;
 }
 #choice{
@@ -67,6 +66,7 @@ body{
   font-size:20px;
   font-weight: 600;
   height: 200px;
+  width: 900px;
 }
 
 #choice a{
@@ -80,7 +80,7 @@ body{
 #choice .choice{
   position: relative;
   top: 50%;
-  width: 49%;
+  width: 33%;
   transform: translateY(-50%);
   text-align: left;
   padding: 30px;
@@ -90,19 +90,19 @@ body{
   text-transform: uppercase;
 }
 
-#choice .choice.two{
-  color: #00cbca;
+#choice .choice.three{
+  color: #8600b3;
   float: right;
 }
-
+#choice .choice.two{
+  color: #00cbca;
+  float: left;
+}
 #choice .choice.one{
   color: #2196f3;
   float: left;
 }
-#choice .choice.three{
-  color: #8600b3;
-  float: left;
-}
+
 #background-stats{
   z-index:1;
   height:100%;

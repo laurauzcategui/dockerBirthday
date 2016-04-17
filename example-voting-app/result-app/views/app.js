@@ -10,7 +10,7 @@ app.controller('statsCtrl', function($scope,$http){
     if(a+b+c>0){
       var percentA = a/(a+b+c)*100;
       var percentB = b/(a+b+c)*100;
-      var percentC = 100-percentA-percentB;
+      var percentC = c/(a+b+c)*100;
       bg1.style.width= percentA+"%";
       bg2.style.width = percentB+"%";
       bg3.style.width = percentC+"%";
