@@ -31,6 +31,9 @@ body{
 #background-stats-2{
   background-color: #00cbca;
 }
+#background-stats-3{
+  background-color: #8600b3;
+}
 
 #content-container{
   z-index:2;
@@ -94,6 +97,10 @@ body{
 
 #choice .choice.one{
   color: #2196f3;
+  float: left;
+}
+#choice .choice.three{
+  color: #8600b3;
   float: left;
 }
 #background-stats{
